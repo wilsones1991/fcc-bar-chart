@@ -1,0 +1,38 @@
+*, *::before, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(84, 130, 144);
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    width: 100%;
+}
+
+.container {
+    border: solid 1px black;
+    background: white;
+    position: relative;
+}
+
+.axis {
+    font-size: 1rem;
+}
+
+.bar:hover {
+    fill: white;
+    stroke: black;
+}
+
+.tooltip {
+    font-size: 1.3rem;
+}
